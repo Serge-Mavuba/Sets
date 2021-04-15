@@ -39,3 +39,14 @@ example.remove(50) # remove an element that is not part of the set and you get a
 help(example.discard)
 
 example.discard(50) # discard if you try to remove an element which is not in th set, the method does nothing and simply returns without making a change
+
+# faster way to create a set is to pre-populate it with a collection of elements
+example2 = set ([False, 56, 0.07, "James Bond"])
+print(example2)
+print(len(example2))
+print()
+
+# remove all elements by using the clear method()
+example2.clear()
+print(len(example2))
+print()
